@@ -1,3 +1,4 @@
+import Hero from "../components/Hero";
 import {useState} from "react";
 import {products} from "../data";
 import ProductCard from "../components/ProductCard";
@@ -12,6 +13,7 @@ p.name.toLowerCase().includes(search.toLowerCase())
 
 return(
 <div className="container">
+    <Hero />
 
 <h1>Our Products</h1>
 
